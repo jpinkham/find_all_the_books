@@ -3,6 +3,12 @@ cli tools and eventual Flask app for getting book info and searching Overdrive a
 
 Book search: Check all my Overdrive libs, GoodReads, my Calibre libs, and $others
 
+TODOs:
+ * TODO: import Overdrive checkout history into a SQLite db
+ * TODO: import local library checkout history into a SQLite db
+ * TODO: import GoodReads 'Read' shelf into a SQLite db
+
+Features:
 * Check Overdrive libs
   * Availability
     * "Where available to checkout, have I hit max checkouts?"
@@ -14,11 +20,11 @@ Book search: Check all my Overdrive libs, GoodReads, my Calibre libs, and $other
   * on 'Read' or 'Want to Read' shelf?
   * Average review
   * Series information
-  * If I’ve read anything else by the author  (TODO: import Read shelf into a SQLite db)
+  * If I’ve read anything else by the author  
 
 * Check local libraries
   * Availability
-  * Search checkout history  (TODO: import checkout history of local libs into a SQLite db)
+  * Search checkout history
 
 * Search my Calibre libraries
   * For exact title
